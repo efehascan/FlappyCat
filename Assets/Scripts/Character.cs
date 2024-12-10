@@ -1,9 +1,11 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Character : MonoBehaviour
 {
     [SerializeField]float verticalSpeed = 1.5f;
+    [SerializeField]float rotationSpeed = 10.0f;
     
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
@@ -23,6 +25,11 @@ public class Character : MonoBehaviour
             rb2d.linearVelocity = Vector2.up * verticalSpeed;
 
         }
+    }
+
+    private void FixedUpdate()
+    {
+        transform.rotation = Quaternion.Euler(0,0,rb2d.linearVelocity.x * rotationSpeed);
         
     }
 }
