@@ -1,30 +1,28 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Character : MonoBehaviour
 {
-    float verticalSpeed = 2.0f;
+    [SerializeField]float verticalSpeed = 1.5f;
     
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
+    
+    Rigidbody2D rb2d;
         
     void Start()
     {
-        
+        rb2d = GetComponent<Rigidbody2D>();
     }
     
     void Update()
     {
         
-        if (Input.GetKeyUp(KeyCode.Space) && IsGrounded())
+        if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            transform.Translate(Vector2.up * Time.deltaTime * verticalSpeed);
+            rb2d.linearVelocity = Vector2.up * verticalSpeed;
 
         }
         
-    }
-
-    bool IsGrounded()
-    {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 }
