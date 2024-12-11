@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class Character : MonoBehaviour
 {
-    [SerializeField]float verticalSpeed = 1.5f;
+    [SerializeField]float verticalSpeed = 4.5f;
     [SerializeField]float rotationSpeed = 10.0f;
     
     [SerializeField] private Transform groundCheck;

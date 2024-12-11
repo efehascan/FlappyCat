@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PipeMove : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 1.35f;
+    [SerializeField] float moveSpeed = 1.65f;
     
     void Update()
     {
