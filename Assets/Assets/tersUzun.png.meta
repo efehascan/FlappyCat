@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 26c6ff7d64980604bab64a96db75ba07
+guid: 3a5ed280f2c87f0439f8989e335c8fca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1430133959623162922
-    second: "Boru du\u0308z_0"
+      213: -4847509971846366765
+    second: tersUzun_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,17 +109,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Boru du\u0308z_0"
+      name: tersUzun_0
       rect:
         serializedVersion: 2
-        x: 950
-        y: 8
-        width: 899
-        height: 2040
+        x: 274
+        y: 0
+        width: 393
+        height: 2000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2cbf84524bd8d310800000000000000
-      internalID: 1430133959623162922
+      spriteID: 3d9fee22d5f2abcb0800000000000000
+      internalID: -4847509971846366765
       vertices: []
       indices: 
       edges: []

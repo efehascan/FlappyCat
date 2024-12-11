@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: edccd7d961f2fc646b70babbf4b5f3fd
+guid: 8573c31ca5148fa4aba6feb481c44090
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3675594025196468876
-    second: Ters_0
+      213: -3800980281624514128
+    second: "d\xFCzk\u0131sa_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,17 +109,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ters_0
+      name: "d\xFCzk\u0131sa_0"
       rect:
         serializedVersion: 2
-        x: 950
-        y: 8
-        width: 899
-        height: 2040
+        x: 295
+        y: 0
+        width: 393
+        height: 2000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 475cd9d45baadfcc0800000000000000
-      internalID: -3675594025196468876
+      spriteID: 0b1b1838294304bc0800000000000000
+      internalID: -3800980281624514128
       vertices: []
       indices: 
       edges: []
