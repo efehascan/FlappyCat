@@ -4,11 +4,11 @@ using UnityEngine.InputSystem;
 
 public class Character : MonoBehaviour
 {
+    [SerializeField] public bool catIsDead = false;
+    
     [SerializeField]float verticalSpeed = 4.5f;
     [SerializeField]float rotationSpeed = 10.0f;
     
-    [SerializeField] private Transform groundCheck;
-    [SerializeField] private LayerMask groundLayer;
     
     Rigidbody2D rb2d;
         
