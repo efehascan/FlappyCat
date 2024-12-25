@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Character : MonoBehaviour
 {
@@ -48,5 +48,18 @@ public class Character : MonoBehaviour
         {
             points++;
         }
+        
+        if (other.CompareTag("Boru"))   
+        {
+            Debug.Log("Boru");
+            EndGameSceneLoader();
+        }
+        
+    }
+
+    private void EndGameSceneLoader()
+    {
+        Debug.Log("Game Over");
+        SceneManager.LoadScene("EndGameScene");
     }
 }
