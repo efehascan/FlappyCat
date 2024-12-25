@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8608477797046547130}
   m_Layer: 0
   m_Name: Boru
-  m_TagString: Untagged
+  m_TagString: PointCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82,7 +82,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -2.9980998, y: 0.9764104}
+  m_Offset: {x: -3.0174003, y: 0.9764099}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -92,7 +92,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.3769941, y: 17.039894}
+  m_Size: {x: 0.6049547, y: 17.039894}
   m_EdgeRadius: 0
 --- !u!1 &7084416645138742402
 GameObject:
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 999442834966894293}
   m_Layer: 0
   m_Name: TersBoru
-  m_TagString: Untagged
+  m_TagString: Boru
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 8344690740730955736}
   m_Layer: 0
   m_Name: AltBoru
-  m_TagString: Untagged
+  m_TagString: Boru
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

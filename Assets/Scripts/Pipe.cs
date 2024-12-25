@@ -17,10 +17,5 @@ public class Pipe : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-
-        if (other.CompareTag("PointCollider"))
-        {
-            character.points++;
-        }
     }
 }

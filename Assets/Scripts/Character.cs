@@ -29,18 +29,24 @@ public class Character : MonoBehaviour
         {
             rb2d.linearVelocity = Vector2.up * verticalSpeed;
         }
-            
         UpdatePoints();
     }
 
     private void FixedUpdate()
     {
         transform.rotation = Quaternion.Euler(0,0,rb2d.linearVelocity.x * rotationSpeed);
-        
     }
 
     void UpdatePoints()
     {
         pointsText.text = "Score:" + points.ToString();
+    }
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("PointCollider"))
+        {
+            points++;
+        }
     }
 }
