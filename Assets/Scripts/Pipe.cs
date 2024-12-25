@@ -4,6 +4,7 @@ using UnityEngine;
 public class Pipe : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 1.65f;
+    Character character;
 
     void Update()
     {
@@ -15,6 +16,11 @@ public class Pipe : MonoBehaviour
         if (other.CompareTag("MainCamera"))
         {
             Destroy(this.gameObject);
+        }
+
+        if (other.CompareTag("PointCollider"))
+        {
+            character.points++;
         }
     }
 }
