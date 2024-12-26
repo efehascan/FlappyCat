@@ -49,17 +49,21 @@ public class Character : MonoBehaviour
             points++;
         }
         
-        if (other.CompareTag("Boru"))   
+    }
+    
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Boru"))   
         {
             Debug.Log("Boru");
             EndGameSceneLoader();
         }
-        
     }
 
     private void EndGameSceneLoader()
     {
         Debug.Log("Game Over");
-        SceneManager.LoadScene("EndGameScene");
+        SceneManager.LoadScene(1, LoadSceneMode.Single);
     }
+    
 }
